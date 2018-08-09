@@ -1,0 +1,65 @@
+schools:
+  - name: Boğaziçi University
+    dept: Biomedical Engineering Institute
+    year: 2009
+    degree: MSc
+    url: "https://bme.boun.edu.tr/"
+    publication:
+     -
+       url: "assets/eatez.pdf"
+       title: >
+        Effects of epimuscular myofascial force transmission on sensory level; experimental assessment by afferent signals received from lower leg muscles
+
+  - name: Istanbul Technical University
+    dept: Molecular Biology and Genetics
+    year: 2006
+    degree: BSc
+    url: "http://www.bio.itu.edu.tr/"
+    publication:
+     -
+       url: "assets/no_file.pdf"
+       title: >
+        Analyzing adsorption of bovine serum albumin on gold surface with quartz crystal microbalance
+
+  - name: Umea University
+    dept: Department of Plant Physiology, Department of Molecular Biology
+    year: 2004
+    degree: Exchange student
+    url: "http://www.umu.se/english/"
+    publication:
+     -
+       url: none
+       title:
+
+  # - name: Kadikoy Anatolian High
+  #   dept: Science & Math
+  #   year: 2002
+  #   degree: High School
+  #   publication:
+  #     - url:
+  #       title:
+
+ongoing:
+  - name: Front-End Developer Nanodegree
+    platform: Udacity
+    year: 2017
+    certification: "https://confirm.udacity.com/4SEVKKPN"
+    url: "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+    description: >
+     An online certification program in which several skills relevant to front-end development such as HTML, CSS and Javascript are acquired and put to use with a couple of mini-projects.
+
+  - name: Learning How to Learn; powerful mental tools to help you master though subjects
+    platform: Coursera
+    year: 2018
+    certification: none
+    url: "https://www.coursera.org/learn/learning-how-to-learn/home/welcome"
+    description: >
+     A MOOC from San Diego University that introduces neurological foundation of learning and some practical methods to learn new things more effectively and retain more of what's learned
+
+  - name: Introduction to Python for Data Science
+    platform: edX
+    year: 2018
+    certification: none
+    url: "https://courses.edx.org/courses/course-v1:Microsoft+DAT208x+1T2018a/course/"
+    description: >
+     Lists as a data structure, Numpy and Pandas packages of the Python Library and some basic sample use cases

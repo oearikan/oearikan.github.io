@@ -1,0 +1,95 @@
+jobs:
+  -
+    employer: "ISU Healthcare"
+    url:
+    title: "Application Specialist"
+    location: "Istanbul"
+    dates: "01.02.2016 - 22.05.2017"
+    skills_used:
+    projects:
+    publications: none
+    description: >
+     As the regional partner of HIM GmbH, ISU focused on distribution of patient document management systems (PDMS) to public, private and university hospitals. I led a team of three people responsible for: Product demonstrations and site audits during pre-sales phase, POC installations, customizations, HL7 interoperability implementations at the customer site, handling of internal tickets.
+
+  -
+    employer: "Evolucare"
+    url:
+    title: "Application Specialist"
+    location: "Istanbul"
+    dates: "02.09.2013 - 07.01.2016"
+    skills_used:
+    projects:
+    publications: none
+    description: >
+     France based medical software company with a focus on critical care (i.e. operating rooms and intensive care units) information systems as well as PACS (picture archive and communication systems, mainly used in radiology departments of hospitals). I led the Biomedical / IT team of 3 people responsible for: Auditing installation sites, providing technical pre-sales support, installation and maintenance of the clients and servers, handling internal and external tickets. Within two years, my team delivered fully functional production environments for two major private hospitals in Istanbul and Kocaeli.
+
+  -
+    employer: "Boğaziçi University"
+    url:
+    title: "Researcher"
+    location: "Istanbul"
+    dates: "01.10.2009 - 18.05.2013"
+    skills_used:
+    projects:
+    publications:
+      -
+        title: BTX-A Administration to the target muscle affects forces of all muscles within an intact compartment and epimuscular myofascial force transmission
+        authors: Yucesoy, C. A., Arikan, O. E. and Ates, F.
+        year: 2012
+        medium: Journal of Biomechanical Engineering, 134, 111002 1-9.
+        url: "assets/YucesoyetalJBiomechEng2012.pdf"
+
+      -
+        title: Experimental assessment of the effects of epimuscular myofascial force transmisson in the sensory level
+        authors: Arikan, O. E., Guclu, B., Huijing, P. A., Yucesoy, C. A.
+        year: 2011
+        medium: International Society of Biomechanics XXIIIrd Congress.
+        url: "assets/isb_2011proceeding_arikanetal.pdf"
+
+      -
+        title: >
+         Altered afferent response of restrained antagonistic muscles after passive stretching of Gastrocnemius indicate a remarkable role of epimuscular myofascial force transmission in the sensory level
+        authors: Arikan, O. E., Huijing, P. A., Guclu, B., Yucesoy, C. A.
+        year: 2009
+        medium: Society for Neuroscience (SFN) Conference.
+        url: "assets/arikan_et_al_SFN_2009.pdf"
+
+    description: >
+     As a member of the Biomechanics Lab at the Biomedical Engineering Institute, I was responsible for designing and conducting experiments, maintaining and operating laboratory equipment, keeping records and writing reports, presentations and journal articles.
+
+  -
+    employer: "ARI Teknokent"
+    url:
+    title: "Front Office Clerk"
+    location: "Istanbul"
+    dates: "01.01.2005 - 01.06.2005"
+    skills_used:
+    projects:
+    publications: none
+    description: >
+     "Teknokent"s are special working spaces within a university premise -Istanbul Technical University in my case- allocated to a private company by the government where they are given room, infrastructure and tax benefits and in return they are expected to output R&D based products and services. ARI Teknokent is the firm that oversaw whether the activities of the existing and prospect companies occupying those limited workspaces justify the aforementioned perks offered. My job here was twofold: i) Help assess periodical activities of existing companies and see if they are to remain; ii) Help evaluate the applications of the candidates to make sure only suitable ones are placed.
+
+internships:
+  -
+    employer: "SIMMERK"
+    url:
+    title:
+    location: "Istanbul"
+    dates: "01.06.2009 - 01.07.2009"
+    skills:
+    projects:
+    publications:
+    description: >
+     Mandatory internship for the Biomedical Engineer degree. Became familiar with how a simulation device that is used to train surgeons. Operation and maintenance of similar devices. The facility (SIMMERK = Simulasyon Merkezi i.e. Simulation Center in Turkish) was a sub-branch of the calibration department of the Ministry of Health's Istanbul office so I had a chance to make rounds in state owned hospitals in Istanbul region and observe how the medical equipment in those hospitals are calibrated and maintained.
+
+  -
+    employer: "DETAE"
+    url:
+    title:
+    location: "Istanbul"
+    dates: "01.01.2006 - 15.02.2006"
+    skills:
+    projects:
+    publications:
+    description: >
+     Mandatory internship for BSc degree for Molecular Biology and Genetics. Got familiar with the methods used in a molecular biology research laboratory such as PCR, blotting techniques, gel electrophoresis and eukaryotic cell cultures. I was given a small task of isolating DNA from previously collected blood samples and use these methods to identify the presence of certain genetic diseases and disorders.

@@ -1,0 +1,89 @@
+---
+layout: default
+title: CV
+permalink: "/CV.html"
+---
+<div class="row pb-2">
+  <div class="col d-flex justify-content-end">
+    <a class="btn btn-outline-dark" href="#">Download in pdf</a>
+    <!-- <button class="btn btn-outline-dark" type="button" name="button">Download in pdf</button> -->
+  </div>
+</div>
+<h2>Work history</h2>
+  <h3>Past employment</h3>
+    <ul id="employment">
+      {% for job in site.data.employment.jobs %}
+        <li>
+          <h4>{{ job.title }}, {{ job.employer }}, {{ job.dates }}</h4>
+          <p>{{ job.description }}</p>
+          {% if job.publications != "none" %}
+            <p>
+              <em><strong>Publications:</strong></em>
+              <ul id="publications">
+                {% for item in job.publications %}
+                  <li><small> {{ item.authors }}, <strong>{{ item.year }}</strong>, {{ item.title }}, <i>{{ item.medium }}</i> (<a target="_blank" href="{{ item.url }}">pdf</a>)</small></li>
+                {% endfor %}
+              </ul>
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+
+  <h3>Internships</h3>
+    <ul id="internship">
+      {% for internship in site.data.employment.internships %}
+        <li>
+          <h4>{{ internship.employer }}, {{ internship.location }}, {{ internship.dates }}</h4>
+          <p>{{ internship.description }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+
+<h2>Education</h2>
+  <h3>Schools</h3>
+    <ul id="schools">
+      {% for school in site.data.education.schools %}
+        <li>
+          <h4>{{ school.degree }}, <a href="{{ school.url }}">{{ school.name }}</a>, {{ school.year }}</h4>
+          <h5>{{ school.dept }}</h5>
+          {% if school.publication[0].url != "none" %}
+            <p><em><strong>Graduation work:</strong></em> {{ school.publication[0].title }} <span>(<a target="_blank" href="{{ school.publication[0].url }}">pdf</a>)</span></p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  <h3>Continuing education</h3>
+    <ul id="ongoing">
+      {% for item in site.data.education.ongoing %}
+        <li>
+          <h5>{{ item.name }}, <a href="{{ item.url }}">{{ item.platform }}</a>, {{ item.year }} </h5>
+          <p>
+            {{ item.description }}
+            {% if item.certification != 'none' %}
+              (<a target="_blank" href="{{ item.certification }}">view certificate</a>)
+            {% endif %}
+          </p>
+        </li>
+      {% endfor %}
+    </ul>
+
+<h2>Skills</h2>
+  <h3>Human languages</h3>
+    <ul id="languages">
+      {% for item in site.data.skills.language %}
+        <li>
+          <h4>{{ item.name }}, <small>{{ item.level }}</small></h4>
+          {% if item.sample != 'none' %}
+            <p><em>{{ item.sample }}</em></p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  <h3>IT skills</h3>
+    {% for skill in site.data.skills.computers %}
+      <dl id="itSkills" class="col">
+        <dt><strong>{{ skill.type }}</strong></dt>
+        <dd>{{ skill.samples }}</dd>
+      </dl>
+    {% endfor %}

@@ -1,0 +1,77 @@
+/* My styles here */
+body {
+  max-width: 760px;
+  margin: auto;
+  background-color: rgb(255, 245, 245);
+}
+
+body > div > footer > div > div:nth-child(1) > p > small {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+p, #contacts{
+  font-family: 'Lora', serif;
+}
+
+.pageTitle{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.activePage {
+  background-color: rgb(180, 180, 250);
+  border-radius: 10px;
+}
+
+#topNav {
+  flex-wrap: nowrap;
+}
+
+#topNav a:hover {
+  text-decoration: underline;
+}
+
+#myName {
+  text-transform: uppercase;
+}
+
+#myName a:hover {
+  text-decoration: underline;
+}
+
+#employment, #schools, #ongoing, #languages, #itSkills, #internship {
+  list-style-type: circle;
+}
+
+#publications {
+  list-style-type: square;
+  font-family: 'Lora', serif;
+}
+
+#itSkills {
+  font-family: 'Lora', serif;
+}
+
+#about {
+  padding-top: 0.5em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  text-transform: uppercase;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif; */

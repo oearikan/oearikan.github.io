@@ -1,0 +1,21 @@
+#my defaults, this helps me avoid having to declare layout in the front matter for each individual page. I can edit the path key to effect files in specific directories
+defaults:
+  -
+    scope:
+      path: "" # empty string means all files, all of them
+      type: "pages" #possible vales are posts, pages, drafts or collections that I might later add, this way I exclude .css files getting effected
+    values:
+      layout: "default"
+
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# collect pages
+
+# change liquid templating language's error mode to strict
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false

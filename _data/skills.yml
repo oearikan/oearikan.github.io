@@ -1,0 +1,28 @@
+language:
+  - name: Turkish
+    level: Native
+    sample: none
+
+  - name: English
+    level: Advanced reading, writing and speaking
+    sample: none
+
+  - name: Swedish
+    level: Basic reading, writing and speaking
+    sample: Jag skojar inte =)
+
+computers:
+  - type: Markup & Programming languages
+    samples: HTML, CSS, Javascript, MATLAB, Python
+
+  - type: Build tools, Development environments, Frameworks & Libraries
+    samples: Jekyll, Git, GitHub, Gulp, Grunt, Atom, MS Visual Studio, Knockoutjs, Bootstrap, jQuery
+
+  - type: Desktop applications, Typesetting & Publishing tools
+    samples: Microsoft Office, LibreOffice, Google Drive, LaTeX, Gimp, Camtasia Studio
+
+  - type: Operating Systems, Virtualization environments
+    samples: Windows, Linux, MS Server, Oracle VirtualBox, VMware, HyperV
+
+  - type: Relational database management systems
+    samples: MS SQL Server, Oracle, MySQL
