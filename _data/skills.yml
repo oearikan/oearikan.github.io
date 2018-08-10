@@ -16,7 +16,7 @@ computers:
     samples: HTML, CSS, Javascript, MATLAB, Python
 
   - type: Build tools, Development environments, Frameworks & Libraries
-    samples: Jekyll, Git, GitHub, Gulp, Grunt, Atom, MS Visual Studio, Knockoutjs, Bootstrap, jQuery
+    samples: Jekyll, Git, GitHub, Grunt, Atom, MS Visual Studio, Knockoutjs, Bootstrap, jQuery
 
   - type: Desktop applications, Typesetting & Publishing tools
     samples: Microsoft Office, LibreOffice, Google Drive, LaTeX, Gimp, Camtasia Studio

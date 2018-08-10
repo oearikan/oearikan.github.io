@@ -17,7 +17,7 @@ schools:
     url: "http://www.bio.itu.edu.tr/"
     publication:
      -
-       url: "assets/no_file.pdf"
+       url: none
        title: >
         Analyzing adsorption of bovine serum albumin on gold surface with quartz crystal microbalance
 

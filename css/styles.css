@@ -34,7 +34,7 @@ p, #contacts{
 
 .activePage {
   background-color: rgb(180, 180, 250);
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 #topNav {
@@ -42,7 +42,9 @@ p, #contacts{
 }
 
 #topNav a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px !important;
 }
 
 #myName {
@@ -50,7 +52,9 @@ p, #contacts{
 }
 
 #myName a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
 }
 
 #employment, #schools, #ongoing, #languages, #itSkills, #internship {
@@ -71,6 +75,12 @@ p, #contacts{
   padding-left: 0.2em;
   padding-right: 0.2em;
   text-transform: uppercase;
+}
+
+#about:hover {
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 /* font-family: 'Lato', sans-serif;
